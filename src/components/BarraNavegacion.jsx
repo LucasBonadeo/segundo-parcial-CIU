@@ -16,10 +16,19 @@ const BarraNavegacion = () => {
   };
   return (
     <>
-      <Navbar expand="lg" variant="dark" bg="dark" className="fixed-top navbar">
+      <Navbar
+        expand="lg"
+        variant="dark"
+        bg="dark"
+        className="fixed-top navbar"
+        id="home"
+      >
         <Container>
-          <Navbar.Brand href="#home" className="text-light">
-            <Image src={logo} alt="Logo" className="logo" /> APIC-NASA
+          <Navbar.Brand className="text-light">
+            <a href="#container">
+              <Image src={logo} alt="Logo" className="logo" />
+            </a>
+            APIC-NASA
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
@@ -36,7 +45,7 @@ const BarraNavegacion = () => {
                 href="#day-pic"
                 className="text-light float link-navbar"
               >
-                Day-Pic
+                APOD
               </Nav.Link>
               <Nav.Link
                 href="#favoritos"

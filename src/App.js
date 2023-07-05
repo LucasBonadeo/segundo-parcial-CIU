@@ -20,7 +20,7 @@ function App() {
       <Header titulo={"APIC-NASA"} />
       <div className="contenedor-app d-flex flex-column justify-content-center align-items-center">
         <h2 className="subtitulo" id="day-pic">
-          DAY-PIC
+          APOD
         </h2>
         <SeleccionadorDeFecha onFechaSeleccionada={handleFechaSeleccionada} />
         <ImagenDelDia

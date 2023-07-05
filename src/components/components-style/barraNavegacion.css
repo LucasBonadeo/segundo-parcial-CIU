@@ -1,5 +1,8 @@
 .navbar {
   font-family: nasa;
+  box-shadow: 2px -8px 13px -5px rgba(0, 0, 0, 0.75) inset;
+  -webkit-box-shadow: 2px -8px 13px -5px rgba(0, 0, 0, 0.75) inset;
+  -moz-box-shadow: 2px -8px 13px -5px rgba(0, 0, 0, 0.75) inset;
 }
 
 .logo {
@@ -29,6 +32,7 @@
   color: white;
   justify-content: center;
   text-align: center;
+  font-family: nasa;
 }
 
 @media (max-width: 768px) {

@@ -19,7 +19,7 @@ const SeleccionadorDeFecha = ({ onFechaSeleccionada }) => {
 
   return (
     <div className="contenedor-fecha-seleccionada">
-      <h1 className="display-6">Fecha Seleccionada : {fecha}</h1>
+      <h4 className="display-6">Fecha Seleccionada : {fecha}</h4>
       <input type="date" onChange={handleFechaChange} />
     </div>
   );
