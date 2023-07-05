@@ -1,0 +1,31 @@
+@font-face {
+  font-family: nasa;
+  src: url("../../assets/tipografia/nasa.otf") format("truetype");
+}
+
+.contenedor-principal-footer {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 1rem;
+}
+
+.redes-sociales {
+  max-width: 500px;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid antiquewhite;
+  font-size: 2rem;
+  margin: 2rem 0rem 1rem 0rem;
+  font-family: nasa;
+}
+
+.link-redes-sociales {
+  margin: 0.5rem 1rem 1rem 1rem;
+}
+
+.ciu {
+  font-size: 1.5rem;
+  font-family: nasa;
+  margin: 2rem;
+  text-align: center;
+}

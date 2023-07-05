@@ -1,0 +1,49 @@
+.contenedor-imagen-de-dia {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  border-radius: 10px;
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contenedor-imagen-api {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 500px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.contenedor-texto {
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  margin: 10px 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  margin: 0.5rem;
+}

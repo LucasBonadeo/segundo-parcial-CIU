@@ -1,0 +1,62 @@
+@font-face {
+  font-family: space-age;
+  src: url("../../assets/tipografia/space-age.ttf") format("truetype");
+}
+
+#container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: space-age;
+  color: rgb(255, 255, 255);
+  text-shadow: -2px -1px 10px rgba(0, 0, 0, 0.97);
+  text-align: center;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.contenedor-imagen {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 3rem;
+  }
+  #container {
+    height: 95vh;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .titulo {
+    font-size: 8rem;
+  }
+}

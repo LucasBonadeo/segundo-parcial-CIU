@@ -1,0 +1,13 @@
+.contenedor-favoritos {
+  margin: 1rem;
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 1rem;
+  padding: 0;
+  background-color: black;
+}

@@ -1,0 +1,38 @@
+.navbar {
+  font-family: nasa;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: auto;
+  margin: 10px;
+}
+
+.link-navbar {
+  border-radius: 10px;
+  border: 1px solid yellow;
+  margin-left: 1rem;
+  background-color: black;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ventana-modal {
+  background-color: #454652;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 50px;
+  }
+}
