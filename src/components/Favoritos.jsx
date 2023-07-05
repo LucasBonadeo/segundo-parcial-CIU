@@ -27,16 +27,22 @@ const Favoritos = ({ actualizarEstado }) => {
         id="favoritos"
       >
         <h4 className="subtitulo">Favoritos</h4>
-        <div className="contenedor-favoritos d-flex flex-row justify-content-center align-items-center">
-          {imagenesGuardadas.map((imagen, index) => (
-            <CardFavoritos
-              key={uuidv4()}
-              img={imagen.url}
-              fechaSeleccionada={imagen.fecha}
-              eliminarImagen={() => eliminarImagenLocalStorage(index)}
-            />
-          ))}
-        </div>
+        {imagenesGuardadas.length === 0 ? (
+          <p className="favoritos-vacio">
+            Aún no has agregado favoritos a tu lista.
+          </p>
+        ) : (
+          <div className="contenedor-favoritos d-flex flex-row justify-content-center align-items-center">
+            {imagenesGuardadas.map((imagen, index) => (
+              <CardFavoritos
+                key={uuidv4()}
+                img={imagen.url}
+                fechaSeleccionada={imagen.fecha}
+                eliminarImagen={() => eliminarImagenLocalStorage(index)}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </>
   );

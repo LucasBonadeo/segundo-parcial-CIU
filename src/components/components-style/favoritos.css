@@ -11,3 +11,8 @@
   padding: 0;
   background-color: black;
 }
+
+.favoritos-vacio {
+  color: white;
+  margin: 2rem;
+}

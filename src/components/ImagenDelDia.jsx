@@ -6,7 +6,7 @@ import "./components-style/imagenDelDia.css";
 
 const ImagenDelDia = ({ fechaSeleccionada, setActualizarEstado }) => {
   const [resNasa, setResNasa] = useState({
-    url: "https://apod.nasa.gov/apod/image/2304/Ring_HubbleSchmidt_960.jpg",
+    url: "https://apod.nasa.gov/apod/image/2106/OrionNebula_HubbleSerrano_960.jpg",
     explanation: "Esperando selección de fecha...",
   });
 
