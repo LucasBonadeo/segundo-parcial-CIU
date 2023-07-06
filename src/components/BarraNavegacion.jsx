@@ -14,6 +14,7 @@ const BarraNavegacion = () => {
   const abrirModal = () => {
     setModalAbierta(true);
   };
+
   return (
     <>
       <Navbar
@@ -74,7 +75,7 @@ const BarraNavegacion = () => {
             cosmos, planetas, galaxias y otros fenómenos astronómicos.
           </p>
           <p>
-            Además, en la sección "Day-Pic" de APIC-NASA, puedes seleccionar la
+            Además, en la sección "APOD" de APIC-NASA, puedes seleccionar la
             fecha de una imagen específica que te interese ver. Simplemente
             elige la fecha deseada en el selector de fecha, presiona el botón
             'Buscar imagen' y la plataforma te mostrará la imagen
